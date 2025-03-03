@@ -13,6 +13,10 @@ nav.menu-nav ul{
     justify-content: space-evenly;
     font-size: 2em;
     background-color: gray;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    list-style: none;
 }
 
 nav.menu-nav ul li.btn{
@@ -32,8 +36,9 @@ nav.menu-nav ul li.btn:hover a{
 }
 
 .ETT{
+    display: flex;
     flex-direction: column;
-    gap: 10px;
+    
 
 }
 
@@ -56,13 +61,15 @@ nav.menu-nav ul li.btn:hover a{
 .compo img {
     width: 100%; 
     height: 100%;
-    max-width: 13vh; 
+    max-width: 9.3vh; 
+    padding-top: 35%;
 }
 
 .ET{
     position: flex;
     color: white;
     text-align: center;
+    flex-direction: column;
 }
 
 .info{
